@@ -1,8 +1,26 @@
+
+
+```plaintext
 # Core Libraries
 pandas>=2.0.0
 sqlalchemy>=2.0.0
 psycopg2>=2.9.0
 confluent-kafka>=2.0.0
 
-# Additional Utilities (if needed)
-python-dotenv>=0.19.0  # For managing environment variables
+# Optional Utilities
+python-dotenv>=0.19.0
+```
+
+### Steps to Add This to Your Project:
+1. Open a text editor (e.g., Notepad, VS Code, or any code editor).
+2. Copy the above content.
+3. Paste it into a new file.
+4. Save the file as `requirements.txt` in the root directory of your project.
+
+### How to Use:
+Run the following command in your terminal or command prompt to install all the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the required libraries for your project.
